@@ -5,6 +5,9 @@
 	background: #16222a; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #16222a, #3a6073); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #16222a, #3a6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+	background-repeat:no-repeat;
+    background-position: center;
 	}
 	
 	#showDate{
@@ -22,7 +25,7 @@
 	 <hr style="width:30%; color:#fff">
    </div>
 
-   <div class="card mb-3" style="width:500px; margin:0 auto;">
+   <div class="card mb-3" style="width:450px; margin:0 auto;">
      <img src="<%= blog.image %>" class="card-img-top" alt="..." style="height:350px;">
         <div class="card-body">
           <p class="card-text"><%=blog.body %></p>

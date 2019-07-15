@@ -15,9 +15,6 @@
             background-color: #000;
              }
 		  
-		  #landing-header h1 {
-              color: #fff;
-            }
 		  
 		 #landing-header {
              z-index: 1;
@@ -25,6 +22,10 @@
              text-align: center;
              padding-top: 40vh;
         }
+		  
+		 #landing-header h1 {
+              color: #fff;
+            }
 		  
 		  .slideshow { 
             position: fixed;
@@ -53,11 +54,11 @@
               }
 		     
 		      .slideshow li:nth-child(1) { 
-               background-image: url(https://images.unsplash.com/photo-1521316973612-36489899f29b?ixlib=rb-  1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+               background-image: url(https://images.unsplash.com/photo-1521316973612-36489899f29b?ixlib=rb-%201.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=8080);
 				   
                }
                .slideshow li:nth-child(2) { 
-               background-image: url(https://images.unsplash.com/photo-1518481612222-68bbe828ecd1?ixlib=rb-               1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+               background-image: url(https://images.unsplash.com/photo-1518481612222-68bbe828ecd1?ixlib=rb-%201.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
                animation-delay: 5s; 
                }
               .slideshow li:nth-child(3) { 
@@ -65,7 +66,7 @@
                animation-delay: 10s; 
                }
                .slideshow li:nth-child(4) { 
-               background-image: url(https://images.unsplash.com/photo-1452423668729-43a98052d3ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80);
+               background-image: url(https://images.unsplash.com/photo-1527685216219-c7bee79b0089?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80);
                animation-delay: 15s; 
                }
                .slideshow li:nth-child(5) { 
@@ -101,9 +102,11 @@
 		
 		<div class="mx-auto" style="width: 450px; text-align:center; margin-top:-100px" id="landing-header">
              <h1 class="display-4">Bloggy</h1>
-             <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured                    content or information.  </p>
+             <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured                              content or information.  </p>
 			 <hr>
-			 <a class="btn btn-primary btn-lg" href="/blogs">Explore Bloggy<span style="font-size: 25px; margin-left:10px;"><i class="fab fa-wpexplorer">                </i></span></a>
+			 <a class="btn btn-primary btn-lg" href="/blogs">Explore Bloggy<span style="font-size: 25px; margin-left:10px;">
+				 <i class="fab fa-wpexplorer"></i></span>
+			 </a>
         </div>
 		
 		<ul class="slideshow">
